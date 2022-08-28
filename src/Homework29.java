@@ -12,6 +12,18 @@ public class Homework29 {
 
         String q = text.substring(5,8) + text.substring(14,17);
         System.out.println("Letters:" +q.toUpperCase());
+
+
+        if (text.equalsIgnoreCase("abcd")) {
+            System.out.println("Soderzit");
+        } else {
+            System.out.println(" Ne soderzit");
+
+            System.out.println(text.startsWith("5555"));
+
+
+        }
+
     }
 }
 
